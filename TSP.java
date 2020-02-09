@@ -4,7 +4,7 @@ import java.io.Reader;
 import java.io.StreamTokenizer;
 import java.util.ArrayList;
 
-//Some useful code for the CS2004 (2015-2016) Travelling Salesman Worksheet
+
 public class TSP 
 {
 	//Print a 2D double array to the console Window
@@ -22,8 +22,6 @@ public class TSP
 	}
 	//This method reads in a text file and parses all of the numbers in it
 	//This method is for reading in a square 2D numeric array from a text file
-	//This code is not very good and can be improved!
-	//But it should work!!!
 	//'sep' is the separator between columns
 	@SuppressWarnings("resource")
 	static public double[][] ReadArrayFile(String filename,String sep)
@@ -64,8 +62,6 @@ public class TSP
 	    return(res);
 	}
 	//This method reads in a text file and parses all of the numbers in it
-	//This code is not very good and can be improved!
-	//But it should work!!!
 	//It takes in as input a string filename and returns an array list of Integers
 	static public ArrayList<Integer> ReadIntegerFile(String filename)
 	{
